@@ -7,3 +7,9 @@ https://asciinema.org/a/tvHCBXQRelIKAtNwP0GUQfocL
 https://asciinema.org/a/Uz7nPWyhQAaYM8wlMd8zg25WA
 
 https://asciinema.org/a/PkJ9t098ufzZyqga52hD1zVvt
+
+https://asciinema.org/a/zQNzJgcJiywLE1rmYPxv5vwJT
+
+https://asciinema.org/a/ChJQKSmUpXq3FVTp1j4qoSVYI
+
+
