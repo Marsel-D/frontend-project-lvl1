@@ -36,7 +36,7 @@ console.log('Find the greatest common divisor of given numbers.')
    //console.log(rez);
    const otv = readlineSync.question('Your answer:');
     if((even(rez,otv)) === false){
-     console.log("'"+otv+"'" + " is wrong answer ;(. Correct answer was "+"'"+rez+"'" + ".\nLet's try again, "+ name);
+     console.log("'"+otv+"'" + " is wrong answer ;(. Correct answer was "+"'"+rez+"'" + ".\nLet's try again, "+ name+"!");
      break;
      };
   console.log("Correct!");

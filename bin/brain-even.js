@@ -18,7 +18,7 @@ const b = (a)=> {
   console.log("Question: " + a);
    const otv = readlineSync.question('Your answer: ');
     if(even(otv,a) === false){
-     console.log("'"+otv+"'" + " is wrong answer ;(. Correct answer was "+"'"+b(a)+"'" + ".\nLet's try again, "+ name);
+     console.log("'"+otv+"'" + " is wrong answer ;(. Correct answer was "+"'"+b(a)+"'" + ".\nLet's try again, "+ name+"!");
      break;
      };
   console.log("Correct!");
