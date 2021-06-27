@@ -4,8 +4,7 @@ import readlineSync from 'readline-sync';
 import { name } from '../src/cli.js';
 console.log('What is the result of the expression?')
 const d = (c)=> {
- let oper = [];
-  if (c < 4 ) {
+   if (c < 4 ) {
    return "*"}
    else if (c < 7){
    return  "+";
@@ -31,11 +30,11 @@ const d = (c)=> {
   };
  
   for (let i=1; i < 4 ;i=i+1){
-  const a =  Math.floor(Math.random() * (100 - 1 + 1)) + 1;
-  const b =  Math.floor(Math.random() * (100 - 1 + 1)) + 1;
+  const a =  Math.floor(Math.random() * (10 - 1 + 1)) + 1;
+  const b =  Math.floor(Math.random() * (10 - 1 + 1)) + 1;
   const c = Math.floor(Math.random() * (10 - 1 + 1)) + 1;
-  const f = d(c);
-  console.log('Question: ' +a+f+b);
+  //const f = d(c);
+  console.log('Question: '+a+d(c)+b);
    const rez = raschet(a,b,c);
    const otv = readlineSync.question('Your answer:');
     if((even(rez,otv)) === false){
