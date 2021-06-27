@@ -6,6 +6,10 @@ console.log('Answer "yes" if given number is prime. Otherwise answer "no"')
 const simple=(a)=>{
 let result = 0;
   for (let i = a; i >= 0; i=i-1){
+     if ( a === 1){
+        return "no";
+     };
+   
      if ((a % i) === 0){
        result = result+1;
       };
