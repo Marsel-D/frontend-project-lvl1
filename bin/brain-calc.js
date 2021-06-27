@@ -33,8 +33,7 @@ const d = (c)=> {
   const a =  Math.floor(Math.random() * (10 - 1 + 1)) + 1;
   const b =  Math.floor(Math.random() * (10 - 1 + 1)) + 1;
   const c = Math.floor(Math.random() * (10 - 1 + 1)) + 1;
-  //const f = d(c);
-  console.log('Question: '+a+d(c)+b);
+   console.log('Question: '+a+" "+d(c)+" "+ b);
    const rez = raschet(a,b,c);
    const otv = readlineSync.question('Your answer:');
     if((even(rez,otv)) === false){
