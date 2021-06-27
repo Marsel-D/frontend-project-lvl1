@@ -10,7 +10,7 @@ const d = (c)=> {
    else if (c < 7){
    return  "+";
    }
-   return '-';
+   return "-";
   };
   const raschet = (a,b,c)=>{
   if (c < 4 ) {
