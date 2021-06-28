@@ -35,7 +35,7 @@ for (let i = 1; i < 4; i += 1) {
   console.log(`Question: ${a}`);
   const otv = readlineSync.question('Your answer:');
   if ((even(rez, otv)) === false) {
-    console.log(`${otv} is wrong answer ;(. Correct  answer was ${rez}.\nLet's try again, ${name}!`);
+    console.log(`'${otv}' is wrong answer ;(. Correct  answer was '${rez}'.\nLet's try again, ${name}!`);
     break;
   }
   console.log('Correct!');
