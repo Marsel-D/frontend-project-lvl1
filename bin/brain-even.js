@@ -2,6 +2,7 @@
 import readlineSync from 'readline-sync';
 import { name } from '../src/cli.js';
 
+console.log(`Hello, ${name}!`);
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 const b = (a) => {
   if ((a % 2) > 0) {

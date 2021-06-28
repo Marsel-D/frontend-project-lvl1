@@ -3,6 +3,7 @@
 import readlineSync from 'readline-sync';
 import { name } from '../src/cli.js';
 
+console.log(`Hello, ${name}!`);
 console.log('What number is missing in the progression?');
 const massiv = (a, b, c) => {
   const arr = [a];
@@ -20,8 +21,9 @@ const viborka = (mass, d) => {
   for (let i = 0; i < leng; i += 1) {
     if (i === d) {
       arr.push('..');
+    } else {
+      arr.push(mass[i]);
     }
-    arr.push(massiv[i]);
   }
   return (arr);
 };
