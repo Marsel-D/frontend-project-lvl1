@@ -12,11 +12,14 @@ const min = (aa, bb) => {
   return bb;
 };
 const nod = (a, b) => {
+  let nd = 0;
   for (let i = min(a, b); i > 0; i -= 1) {
     if ((a % i) === 0 && (b % i) === 0) {
-      return i;
+      nd = i;
+      break;
     }
   }
+  return nd;
 };
 
 const even = (a, b) => {
