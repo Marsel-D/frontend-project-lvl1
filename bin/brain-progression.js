@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import readlineSync from 'readline-sync';
-import { name } from '../src/cli.js';
+import name from '../src/cli.js';
 
 console.log(`Hello, ${name}!`);
 console.log('What number is missing in the progression?');
